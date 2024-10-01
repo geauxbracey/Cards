@@ -9,8 +9,12 @@
 import SwiftUI
 
 struct CardToolbar: ViewModifier {
-  @Environment(\.dismiss) var dismiss
-  @Binding var currentModal: ToolbarSelection?
+ 
+    @Environment(\.dismiss) var dismiss
+    @Binding var currentModal: ToolbarSelection?
+    @Binding var card: Card
+    @State private var stickerImage: UIImage?
+    //receives current card from the parent view and holds current sticker chosen from StickerModal
 
   func body(content: Content) -> some View {
     content
@@ -27,7 +31,14 @@ struct CardToolbar: ViewModifier {
       .sheet(item: $currentModal) { item in
         switch item {
         case .stickerModal:
-            StickerModal()
+            StickerModal(stickerImage: $stickerImage)
+             .onDisappear {
+             if let stickerImage = stickerImage {
+             card.addElement(uiImage: stickerImage)
+                 //error popped up at page 459
+             }
+             stickerImage = nil
+             }
         default:
           Text(String(describing: item))
         }

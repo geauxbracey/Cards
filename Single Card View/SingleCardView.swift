@@ -13,10 +13,11 @@ struct SingleCardView: View {
     @State private var currentModal: ToolbarSelection?
     //When you tap a button on the bottom bar the button will update this property
     @Binding var card: Card
+   
     
     var body: some View {
         NavigationStack{
-            content
+            CardDetailView(card: $card)
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         //places done button at top right of screen
@@ -29,18 +30,13 @@ struct SingleCardView: View {
                      BottomToolbar(modal: $currentModal)
                     }
                 }
-                .sheet(item: $currentModal) { item in
-                    switch item {
-                    default:
-                        Text(String(describing: item))
-                    }
-                }
+                .modifier(CardToolbar(
+                 currentModal: $currentModal,
+                 card: $card))
         }
     }
     
-    var content: some View {
-     card.backgroundColor
-    }
+    
 }
 
 #Preview {
