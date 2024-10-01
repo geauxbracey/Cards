@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F2101EF72CAC67B2005E7878 /* CardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EF62CAC67B2005E7878 /* CardsListView.swift */; };
+		F2101EF92CAC688B005E7878 /* CardThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EF82CAC688B005E7878 /* CardThumbnail.swift */; };
+		F2101EFB2CAC695E005E7878 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EFA2CAC695E005E7878 /* SingleCardView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F2101EDA2CAC6757005E7878 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,9 @@
 		F2101EC92CAC6754005E7878 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2101ED92CAC6757005E7878 /* CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2101EE32CAC6757005E7878 /* CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2101EF62CAC67B2005E7878 /* CardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListView.swift; sourceTree = "<group>"; };
+		F2101EF82CAC688B005E7878 /* CardThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardThumbnail.swift; sourceTree = "<group>"; };
+		F2101EFA2CAC695E005E7878 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +84,9 @@
 		F2101EC02CAC6754005E7878 = {
 			isa = PBXGroup;
 			children = (
+				F2101EFA2CAC695E005E7878 /* SingleCardView.swift */,
+				F2101EF82CAC688B005E7878 /* CardThumbnail.swift */,
+				F2101EF62CAC67B2005E7878 /* CardsListView.swift */,
 				F2101ECB2CAC6754005E7878 /* Cards */,
 				F2101EDC2CAC6757005E7878 /* CardsTests */,
 				F2101EE62CAC6757005E7878 /* CardsUITests */,
@@ -236,6 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2101EF92CAC688B005E7878 /* CardThumbnail.swift in Sources */,
+				F2101EF72CAC67B2005E7878 /* CardsListView.swift in Sources */,
+				F2101EFB2CAC695E005E7878 /* SingleCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
