@@ -3,120 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2101EF72CAC67B2005E7878 /* CardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EF62CAC67B2005E7878 /* CardsListView.swift */; };
-		F2101EF92CAC688B005E7878 /* CardThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EF82CAC688B005E7878 /* CardThumbnail.swift */; };
-		F2101EFB2CAC695E005E7878 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EFA2CAC695E005E7878 /* SingleCardView.swift */; };
-		F2101EFD2CAC6DFA005E7878 /* ToolbarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EFC2CAC6DFA005E7878 /* ToolbarSelection.swift */; };
-		F2101EFF2CAC6E1C005E7878 /* BottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101EFE2CAC6E1C005E7878 /* BottomToolbar.swift */; };
-		F2101F012CAC73F5005E7878 /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F002CAC73F5005E7878 /* ResizableView.swift */; };
-		F2101F042CAC7456005E7878 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F032CAC7456005E7878 /* Transform.swift */; };
-		F2101F062CAC760D005E7878 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F052CAC760D005E7878 /* Operators.swift */; };
-		F2101F092CAC7AEB005E7878 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F082CAC7AEB005E7878 /* Settings.swift */; };
-		F2101F0C2CAC7BA9005E7878 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F0B2CAC7BA9005E7878 /* ColorExtensions.swift */; };
-		F2101F0E2CAC7D35005E7878 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F0D2CAC7D35005E7878 /* PreviewData.swift */; };
-		F2101F102CAC7D7A005E7878 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F0F2CAC7D7A005E7878 /* TextExtension.swift */; };
-		F2101F122CAC7DC1005E7878 /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F112CAC7DC0005E7878 /* CardElement.swift */; };
-		F2101F142CAC7DEF005E7878 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F132CAC7DEF005E7878 /* Card.swift */; };
-		F2101F162CAC7E18005E7878 /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F152CAC7E18005E7878 /* CardStore.swift */; };
-		F2101F192CAC82CA005E7878 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F182CAC82CA005E7878 /* CardDetailView.swift */; };
-		F2101F1B2CAC835B005E7878 /* CardElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F1A2CAC835B005E7878 /* CardElementView.swift */; };
-		F2101F212CAC84F4005E7878 /* hedgehog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2101F202CAC84F4005E7878 /* hedgehog3.jpg */; };
-		F2101F232CAC84F4005E7878 /* hedgehog2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F2101F1F2CAC84F4005E7878 /* hedgehog2.jpeg */; };
-		F2101F252CAC8554005E7878 /* hedgehog1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F2101F242CAC8554005E7878 /* hedgehog1.jpeg */; };
-		F2101F272CAC87FA005E7878 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2101F262CAC87FA005E7878 /* app-icon.png */; };
-		F2101F362CAC8B8C005E7878 /* StickerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F352CAC8B8C005E7878 /* StickerModal.swift */; };
-		F2101F382CAC8DC4005E7878 /* CardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2101F372CAC8DC4005E7878 /* CardToolbar.swift */; };
+		821BACF629A4334200DF7122 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BACF529A4334200DF7122 /* CardsApp.swift */; };
+		821BACF829A4334200DF7122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BACF729A4334200DF7122 /* ContentView.swift */; };
+		821BACFA29A4334300DF7122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821BACF929A4334300DF7122 /* Assets.xcassets */; };
+		821BACFD29A4334300DF7122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821BACFC29A4334300DF7122 /* Preview Assets.xcassets */; };
+		821BAD0629A4347600DF7122 /* CardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BAD0529A4347600DF7122 /* CardsListView.swift */; };
+		821BAD0829A434FD00DF7122 /* CardThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BAD0729A434FD00DF7122 /* CardThumbnail.swift */; };
+		821BAD0A29A4354700DF7122 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BAD0929A4354700DF7122 /* SingleCardView.swift */; };
+		821BAD0C29A4368700DF7122 /* ToolbarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BAD0B29A4368700DF7122 /* ToolbarSelection.swift */; };
+		821BAD0E29A4369B00DF7122 /* BottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BAD0D29A4369B00DF7122 /* BottomToolbar.swift */; };
+		822A9CEC29A47833003EF057 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A9CEB29A47833003EF057 /* CardDetailView.swift */; };
+		822A9CEE29A47892003EF057 /* CardElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822A9CED29A47892003EF057 /* CardElementView.swift */; };
+		8283CE9529A49A0C0002671D /* StickerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283CE9429A49A0C0002671D /* StickerModal.swift */; };
+		82B36DB429A49911001DFB09 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 82B36DB329A49911001DFB09 /* Stickers */; };
+		82BA5DE729A457ED00A8E097 /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA5DE629A457ED00A8E097 /* ResizableView.swift */; };
+		82BA5DEA29A4584900A8E097 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA5DE929A4584900A8E097 /* Transform.swift */; };
+		82BA5DEC29A459D200A8E097 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA5DEB29A459D200A8E097 /* Operators.swift */; };
+		82BA5DEF29A45E3D00A8E097 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA5DEE29A45E3D00A8E097 /* Settings.swift */; };
+		82BA5DF229A45EA900A8E097 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA5DF129A45EA900A8E097 /* ColorExtensions.swift */; };
+		82BA5DF429A45FD600A8E097 /* CardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BA5DF329A45FD600A8E097 /* CardToolbar.swift */; };
+		82FC263329A46C610054795C /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC263229A46C610054795C /* PreviewData.swift */; };
+		82FC263B29A46DB80054795C /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC263A29A46DB80054795C /* CardElement.swift */; };
+		82FC263D29A46DD20054795C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC263C29A46DD20054795C /* Card.swift */; };
+		82FC263F29A46DF40054795C /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC263E29A46DF40054795C /* CardStore.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F2101EDA2CAC6757005E7878 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2101EC12CAC6754005E7878 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2101EC82CAC6754005E7878;
-			remoteInfo = Cards;
-		};
-		F2101EE42CAC6757005E7878 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2101EC12CAC6754005E7878 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2101EC82CAC6754005E7878;
-			remoteInfo = Cards;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		F2101EC92CAC6754005E7878 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2101ED92CAC6757005E7878 /* CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2101EE32CAC6757005E7878 /* CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2101EF62CAC67B2005E7878 /* CardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListView.swift; sourceTree = "<group>"; };
-		F2101EF82CAC688B005E7878 /* CardThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardThumbnail.swift; sourceTree = "<group>"; };
-		F2101EFA2CAC695E005E7878 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
-		F2101EFC2CAC6DFA005E7878 /* ToolbarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarSelection.swift; sourceTree = "<group>"; };
-		F2101EFE2CAC6E1C005E7878 /* BottomToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbar.swift; sourceTree = "<group>"; };
-		F2101F002CAC73F5005E7878 /* ResizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
-		F2101F032CAC7456005E7878 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
-		F2101F052CAC760D005E7878 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		F2101F082CAC7AEB005E7878 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		F2101F0B2CAC7BA9005E7878 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
-		F2101F0D2CAC7D35005E7878 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
-		F2101F0F2CAC7D7A005E7878 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
-		F2101F112CAC7DC0005E7878 /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
-		F2101F132CAC7DEF005E7878 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		F2101F152CAC7E18005E7878 /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
-		F2101F182CAC82CA005E7878 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
-		F2101F1A2CAC835B005E7878 /* CardElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementView.swift; sourceTree = "<group>"; };
-		F2101F1F2CAC84F4005E7878 /* hedgehog2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hedgehog2.jpeg; sourceTree = "<group>"; };
-		F2101F202CAC84F4005E7878 /* hedgehog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hedgehog3.jpg; sourceTree = "<group>"; };
-		F2101F242CAC8554005E7878 /* hedgehog1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hedgehog1.jpeg; sourceTree = "<group>"; };
-		F2101F262CAC87FA005E7878 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
-		F2101F352CAC8B8C005E7878 /* StickerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerModal.swift; sourceTree = "<group>"; };
-		F2101F372CAC8DC4005E7878 /* CardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardToolbar.swift; sourceTree = "<group>"; };
+		821BACF229A4334200DF7122 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821BACF529A4334200DF7122 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
+		821BACF729A4334200DF7122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		821BACF929A4334300DF7122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821BACFC29A4334300DF7122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		821BAD0529A4347600DF7122 /* CardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListView.swift; sourceTree = "<group>"; };
+		821BAD0729A434FD00DF7122 /* CardThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardThumbnail.swift; sourceTree = "<group>"; };
+		821BAD0929A4354700DF7122 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
+		821BAD0B29A4368700DF7122 /* ToolbarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarSelection.swift; sourceTree = "<group>"; };
+		821BAD0D29A4369B00DF7122 /* BottomToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbar.swift; sourceTree = "<group>"; };
+		822A9CEB29A47833003EF057 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		822A9CED29A47892003EF057 /* CardElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementView.swift; sourceTree = "<group>"; };
+		8283CE9429A49A0C0002671D /* StickerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerModal.swift; sourceTree = "<group>"; };
+		82B36DB229A4972A001DFB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		82B36DB329A49911001DFB09 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stickers; sourceTree = "<group>"; };
+		82BA5DE629A457ED00A8E097 /* ResizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
+		82BA5DE929A4584900A8E097 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		82BA5DEB29A459D200A8E097 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		82BA5DEE29A45E3D00A8E097 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		82BA5DF129A45EA900A8E097 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		82BA5DF329A45FD600A8E097 /* CardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardToolbar.swift; sourceTree = "<group>"; };
+		82FC263229A46C610054795C /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		82FC263A29A46DB80054795C /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
+		82FC263C29A46DD20054795C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		82FC263E29A46DF40054795C /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F2101ECB2CAC6754005E7878 /* Cards */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Cards;
-			sourceTree = "<group>";
-		};
-		F2101EDC2CAC6757005E7878 /* CardsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CardsTests;
-			sourceTree = "<group>";
-		};
-		F2101EE62CAC6757005E7878 /* CardsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CardsUITests;
-			sourceTree = "<group>";
-		};
-		F2101F322CAC8B1E005E7878 /* Stickers */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Stickers;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		F2101EC62CAC6754005E7878 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2101ED62CAC6757005E7878 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2101EE02CAC6757005E7878 /* Frameworks */ = {
+		821BACEF29A4334200DF7122 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,296 +71,234 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F2101EC02CAC6754005E7878 = {
+		821BACE929A4334200DF7122 = {
 			isa = PBXGroup;
 			children = (
-				F2101F322CAC8B1E005E7878 /* Stickers */,
-				F2101F152CAC7E18005E7878 /* CardStore.swift */,
-				F2101F132CAC7DEF005E7878 /* Card.swift */,
-				F2101F0D2CAC7D35005E7878 /* PreviewData.swift */,
-				F2101F0A2CAC7B94005E7878 /* Extensions */,
-				F2101F072CAC7AD6005E7878 /* Config */,
-				F2101F052CAC760D005E7878 /* Operators.swift */,
-				F2101F022CAC7433005E7878 /* Model */,
-				F2101F002CAC73F5005E7878 /* ResizableView.swift */,
-				F2101EFE2CAC6E1C005E7878 /* BottomToolbar.swift */,
-				F2101EFC2CAC6DFA005E7878 /* ToolbarSelection.swift */,
-				F2101F172CAC82A3005E7878 /* Single Card View */,
-				F2101EF82CAC688B005E7878 /* CardThumbnail.swift */,
-				F2101EF62CAC67B2005E7878 /* CardsListView.swift */,
-				F2101ECB2CAC6754005E7878 /* Cards */,
-				F2101EDC2CAC6757005E7878 /* CardsTests */,
-				F2101EE62CAC6757005E7878 /* CardsUITests */,
-				F2101ECA2CAC6754005E7878 /* Products */,
-				F2101F1F2CAC84F4005E7878 /* hedgehog2.jpeg */,
-				F2101F202CAC84F4005E7878 /* hedgehog3.jpg */,
-				F2101F242CAC8554005E7878 /* hedgehog1.jpeg */,
-				F2101F262CAC87FA005E7878 /* app-icon.png */,
+				821BACF429A4334200DF7122 /* Cards */,
+				821BACF329A4334200DF7122 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F2101ECA2CAC6754005E7878 /* Products */ = {
+		821BACF329A4334200DF7122 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2101EC92CAC6754005E7878 /* Cards.app */,
-				F2101ED92CAC6757005E7878 /* CardsTests.xctest */,
-				F2101EE32CAC6757005E7878 /* CardsUITests.xctest */,
+				821BACF229A4334200DF7122 /* Cards.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2101F022CAC7433005E7878 /* Model */ = {
+		821BACF429A4334200DF7122 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				F2101F032CAC7456005E7878 /* Transform.swift */,
-				F2101F112CAC7DC0005E7878 /* CardElement.swift */,
+				82B36DB229A4972A001DFB09 /* Info.plist */,
+				821BACF529A4334200DF7122 /* CardsApp.swift */,
+				821BAD2A29A43DDD00DF7122 /* Views */,
+				82BA5DE829A4583500A8E097 /* Model */,
+				82BA5DED29A45E2700A8E097 /* Config */,
+				82BA5DF029A45E9100A8E097 /* Extensions */,
+				82B36DB329A49911001DFB09 /* Stickers */,
+				821BACF929A4334300DF7122 /* Assets.xcassets */,
+				821BACFB29A4334300DF7122 /* Preview Content */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		821BACFB29A4334300DF7122 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82FC263229A46C610054795C /* PreviewData.swift */,
+				821BACFC29A4334300DF7122 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		821BAD2A29A43DDD00DF7122 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				821BACF729A4334200DF7122 /* ContentView.swift */,
+				821BAD0529A4347600DF7122 /* CardsListView.swift */,
+				821BAD0729A434FD00DF7122 /* CardThumbnail.swift */,
+				82BA5DE629A457ED00A8E097 /* ResizableView.swift */,
+				821BAD2B29A43DE400DF7122 /* Single Card Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		821BAD2B29A43DE400DF7122 /* Single Card Views */ = {
+			isa = PBXGroup;
+			children = (
+				821BAD0929A4354700DF7122 /* SingleCardView.swift */,
+				822A9CEB29A47833003EF057 /* CardDetailView.swift */,
+				822A9CED29A47892003EF057 /* CardElementView.swift */,
+				821BAD0D29A4369B00DF7122 /* BottomToolbar.swift */,
+				821BAD0B29A4368700DF7122 /* ToolbarSelection.swift */,
+				82BA5DF329A45FD600A8E097 /* CardToolbar.swift */,
+				8283CE9329A499C10002671D /* Card Modal Views */,
+			);
+			path = "Single Card Views";
+			sourceTree = "<group>";
+		};
+		8283CE9329A499C10002671D /* Card Modal Views */ = {
+			isa = PBXGroup;
+			children = (
+				8283CE9429A49A0C0002671D /* StickerModal.swift */,
+			);
+			path = "Card Modal Views";
+			sourceTree = "<group>";
+		};
+		82BA5DE829A4583500A8E097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82FC263E29A46DF40054795C /* CardStore.swift */,
+				82FC263C29A46DD20054795C /* Card.swift */,
+				82FC263A29A46DB80054795C /* CardElement.swift */,
+				82BA5DE929A4584900A8E097 /* Transform.swift */,
+				82BA5DEB29A459D200A8E097 /* Operators.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		F2101F072CAC7AD6005E7878 /* Config */ = {
+		82BA5DED29A45E2700A8E097 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				F2101F082CAC7AEB005E7878 /* Settings.swift */,
+				82BA5DEE29A45E3D00A8E097 /* Settings.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
 		};
-		F2101F0A2CAC7B94005E7878 /* Extensions */ = {
+		82BA5DF029A45E9100A8E097 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F2101F0B2CAC7BA9005E7878 /* ColorExtensions.swift */,
-				F2101F0F2CAC7D7A005E7878 /* TextExtension.swift */,
+				82BA5DF129A45EA900A8E097 /* ColorExtensions.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F2101F172CAC82A3005E7878 /* Single Card View */ = {
-			isa = PBXGroup;
-			children = (
-				F2101F342CAC8B6D005E7878 /* Card Modal Views */,
-				F2101EFA2CAC695E005E7878 /* SingleCardView.swift */,
-				F2101F372CAC8DC4005E7878 /* CardToolbar.swift */,
-				F2101F182CAC82CA005E7878 /* CardDetailView.swift */,
-				F2101F1A2CAC835B005E7878 /* CardElementView.swift */,
-			);
-			path = "Single Card View";
-			sourceTree = "<group>";
-		};
-		F2101F342CAC8B6D005E7878 /* Card Modal Views */ = {
-			isa = PBXGroup;
-			children = (
-				F2101F352CAC8B8C005E7878 /* StickerModal.swift */,
-			);
-			path = "Card Modal Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2101EC82CAC6754005E7878 /* Cards */ = {
+		821BACF129A4334200DF7122 /* Cards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2101EED2CAC6757005E7878 /* Build configuration list for PBXNativeTarget "Cards" */;
+			buildConfigurationList = 821BAD0029A4334300DF7122 /* Build configuration list for PBXNativeTarget "Cards" */;
 			buildPhases = (
-				F2101EC52CAC6754005E7878 /* Sources */,
-				F2101EC62CAC6754005E7878 /* Frameworks */,
-				F2101EC72CAC6754005E7878 /* Resources */,
+				821BACEE29A4334200DF7122 /* Sources */,
+				82ECCD4B29A476F3006F8E75 /* SwiftLint */,
+				821BACEF29A4334200DF7122 /* Frameworks */,
+				821BACF029A4334200DF7122 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F2101ECB2CAC6754005E7878 /* Cards */,
-				F2101F322CAC8B1E005E7878 /* Stickers */,
 			);
 			name = Cards;
-			packageProductDependencies = (
-			);
 			productName = Cards;
-			productReference = F2101EC92CAC6754005E7878 /* Cards.app */;
+			productReference = 821BACF229A4334200DF7122 /* Cards.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F2101ED82CAC6757005E7878 /* CardsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2101EF02CAC6757005E7878 /* Build configuration list for PBXNativeTarget "CardsTests" */;
-			buildPhases = (
-				F2101ED52CAC6757005E7878 /* Sources */,
-				F2101ED62CAC6757005E7878 /* Frameworks */,
-				F2101ED72CAC6757005E7878 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2101EDB2CAC6757005E7878 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F2101EDC2CAC6757005E7878 /* CardsTests */,
-			);
-			name = CardsTests;
-			packageProductDependencies = (
-			);
-			productName = CardsTests;
-			productReference = F2101ED92CAC6757005E7878 /* CardsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F2101EE22CAC6757005E7878 /* CardsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2101EF32CAC6757005E7878 /* Build configuration list for PBXNativeTarget "CardsUITests" */;
-			buildPhases = (
-				F2101EDF2CAC6757005E7878 /* Sources */,
-				F2101EE02CAC6757005E7878 /* Frameworks */,
-				F2101EE12CAC6757005E7878 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2101EE52CAC6757005E7878 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F2101EE62CAC6757005E7878 /* CardsUITests */,
-			);
-			name = CardsUITests;
-			packageProductDependencies = (
-			);
-			productName = CardsUITests;
-			productReference = F2101EE32CAC6757005E7878 /* CardsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F2101EC12CAC6754005E7878 /* Project object */ = {
+		821BACEA29A4334200DF7122 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = Kodeco;
 				TargetAttributes = {
-					F2101EC82CAC6754005E7878 = {
-						CreatedOnToolsVersion = 16.0;
-					};
-					F2101ED82CAC6757005E7878 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = F2101EC82CAC6754005E7878;
-					};
-					F2101EE22CAC6757005E7878 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = F2101EC82CAC6754005E7878;
+					821BACF129A4334200DF7122 = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = F2101EC42CAC6754005E7878 /* Build configuration list for PBXProject "Cards" */;
+			buildConfigurationList = 821BACED29A4334200DF7122 /* Build configuration list for PBXProject "Cards" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F2101EC02CAC6754005E7878;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = F2101ECA2CAC6754005E7878 /* Products */;
+			mainGroup = 821BACE929A4334200DF7122;
+			productRefGroup = 821BACF329A4334200DF7122 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2101EC82CAC6754005E7878 /* Cards */,
-				F2101ED82CAC6757005E7878 /* CardsTests */,
-				F2101EE22CAC6757005E7878 /* CardsUITests */,
+				821BACF129A4334200DF7122 /* Cards */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F2101EC72CAC6754005E7878 /* Resources */ = {
+		821BACF029A4334200DF7122 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2101F272CAC87FA005E7878 /* app-icon.png in Resources */,
-				F2101F252CAC8554005E7878 /* hedgehog1.jpeg in Resources */,
-				F2101F212CAC84F4005E7878 /* hedgehog3.jpg in Resources */,
-				F2101F232CAC84F4005E7878 /* hedgehog2.jpeg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2101ED72CAC6757005E7878 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2101EE12CAC6757005E7878 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				82B36DB429A49911001DFB09 /* Stickers in Resources */,
+				821BACFD29A4334300DF7122 /* Preview Assets.xcassets in Resources */,
+				821BACFA29A4334300DF7122 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82ECCD4B29A476F3006F8E75 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		F2101EC52CAC6754005E7878 /* Sources */ = {
+		821BACEE29A4334200DF7122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2101EF92CAC688B005E7878 /* CardThumbnail.swift in Sources */,
-				F2101F062CAC760D005E7878 /* Operators.swift in Sources */,
-				F2101F122CAC7DC1005E7878 /* CardElement.swift in Sources */,
-				F2101F382CAC8DC4005E7878 /* CardToolbar.swift in Sources */,
-				F2101F012CAC73F5005E7878 /* ResizableView.swift in Sources */,
-				F2101F0E2CAC7D35005E7878 /* PreviewData.swift in Sources */,
-				F2101EF72CAC67B2005E7878 /* CardsListView.swift in Sources */,
-				F2101F362CAC8B8C005E7878 /* StickerModal.swift in Sources */,
-				F2101EFB2CAC695E005E7878 /* SingleCardView.swift in Sources */,
-				F2101EFD2CAC6DFA005E7878 /* ToolbarSelection.swift in Sources */,
-				F2101F192CAC82CA005E7878 /* CardDetailView.swift in Sources */,
-				F2101EFF2CAC6E1C005E7878 /* BottomToolbar.swift in Sources */,
-				F2101F162CAC7E18005E7878 /* CardStore.swift in Sources */,
-				F2101F042CAC7456005E7878 /* Transform.swift in Sources */,
-				F2101F102CAC7D7A005E7878 /* TextExtension.swift in Sources */,
-				F2101F1B2CAC835B005E7878 /* CardElementView.swift in Sources */,
-				F2101F092CAC7AEB005E7878 /* Settings.swift in Sources */,
-				F2101F0C2CAC7BA9005E7878 /* ColorExtensions.swift in Sources */,
-				F2101F142CAC7DEF005E7878 /* Card.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2101ED52CAC6757005E7878 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2101EDF2CAC6757005E7878 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				822A9CEC29A47833003EF057 /* CardDetailView.swift in Sources */,
+				82FC263B29A46DB80054795C /* CardElement.swift in Sources */,
+				8283CE9529A49A0C0002671D /* StickerModal.swift in Sources */,
+				821BAD0829A434FD00DF7122 /* CardThumbnail.swift in Sources */,
+				82BA5DEC29A459D200A8E097 /* Operators.swift in Sources */,
+				82BA5DF429A45FD600A8E097 /* CardToolbar.swift in Sources */,
+				821BACF829A4334200DF7122 /* ContentView.swift in Sources */,
+				82FC263D29A46DD20054795C /* Card.swift in Sources */,
+				82FC263329A46C610054795C /* PreviewData.swift in Sources */,
+				82BA5DE729A457ED00A8E097 /* ResizableView.swift in Sources */,
+				821BAD0A29A4354700DF7122 /* SingleCardView.swift in Sources */,
+				821BAD0629A4347600DF7122 /* CardsListView.swift in Sources */,
+				821BAD0C29A4368700DF7122 /* ToolbarSelection.swift in Sources */,
+				821BAD0E29A4369B00DF7122 /* BottomToolbar.swift in Sources */,
+				82BA5DEA29A4584900A8E097 /* Transform.swift in Sources */,
+				822A9CEE29A47892003EF057 /* CardElementView.swift in Sources */,
+				82BA5DEF29A45E3D00A8E097 /* Settings.swift in Sources */,
+				82FC263F29A46DF40054795C /* CardStore.swift in Sources */,
+				821BACF629A4334200DF7122 /* CardsApp.swift in Sources */,
+				82BA5DF229A45EA900A8E097 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F2101EDB2CAC6757005E7878 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2101EC82CAC6754005E7878 /* Cards */;
-			targetProxy = F2101EDA2CAC6757005E7878 /* PBXContainerItemProxy */;
-		};
-		F2101EE52CAC6757005E7878 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2101EC82CAC6754005E7878 /* Cards */;
-			targetProxy = F2101EE42CAC6757005E7878 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		F2101EEB2CAC6757005E7878 /* Debug */ = {
+		821BACFE29A4334300DF7122 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -448,8 +331,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -463,22 +345,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F2101EEC2CAC6757005E7878 /* Release */ = {
+		821BACFF29A4334300DF7122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -511,8 +391,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -520,17 +399,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F2101EEE2CAC6757005E7878 /* Debug */ = {
+		821BAD0129A4334300DF7122 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -538,6 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cards/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cards/Info.plist;
@@ -545,12 +425,13 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaitlyn-Bracey.Cards";
+				PRODUCT_BUNDLE_IDENTIFIER = Kodeco.Cards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -558,7 +439,7 @@
 			};
 			name = Debug;
 		};
-		F2101EEF2CAC6757005E7878 /* Release */ = {
+		821BAD0229A4334300DF7122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -566,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cards/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cards/Info.plist;
@@ -573,127 +455,42 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaitlyn-Bracey.Cards";
+				PRODUCT_BUNDLE_IDENTIFIER = Kodeco.Cards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F2101EF12CAC6757005E7878 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaitlyn-Bracey.CardsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cards";
-			};
-			name = Debug;
-		};
-		F2101EF22CAC6757005E7878 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaitlyn-Bracey.CardsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cards";
-			};
-			name = Release;
-		};
-		F2101EF42CAC6757005E7878 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaitlyn-Bracey.CardsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Cards;
-			};
-			name = Debug;
-		};
-		F2101EF52CAC6757005E7878 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaitlyn-Bracey.CardsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Cards;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2101EC42CAC6754005E7878 /* Build configuration list for PBXProject "Cards" */ = {
+		821BACED29A4334200DF7122 /* Build configuration list for PBXProject "Cards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2101EEB2CAC6757005E7878 /* Debug */,
-				F2101EEC2CAC6757005E7878 /* Release */,
+				821BACFE29A4334300DF7122 /* Debug */,
+				821BACFF29A4334300DF7122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2101EED2CAC6757005E7878 /* Build configuration list for PBXNativeTarget "Cards" */ = {
+		821BAD0029A4334300DF7122 /* Build configuration list for PBXNativeTarget "Cards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2101EEE2CAC6757005E7878 /* Debug */,
-				F2101EEF2CAC6757005E7878 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2101EF02CAC6757005E7878 /* Build configuration list for PBXNativeTarget "CardsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2101EF12CAC6757005E7878 /* Debug */,
-				F2101EF22CAC6757005E7878 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2101EF32CAC6757005E7878 /* Build configuration list for PBXNativeTarget "CardsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2101EF42CAC6757005E7878 /* Debug */,
-				F2101EF52CAC6757005E7878 /* Release */,
+				821BAD0129A4334300DF7122 /* Debug */,
+				821BAD0229A4334300DF7122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F2101EC12CAC6754005E7878 /* Project object */;
+	rootObject = 821BACEA29A4334200DF7122 /* Project object */;
 }
